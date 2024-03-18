@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Cosmetics Mart</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+
+    header {
+      background-color: #ff9f80;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #fff;
+      font-size: 36px;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 20px auto;
+      text-align: center;
+    }
+
+    .feature {
+      margin: 40px 0;
+    }
+
+    .feature img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .cta {
+      background-color: #ff6f61;
+      padding: 30px;
+      color: #fff;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Online Cosmetics Mart</h1>
+    <p>Your one-stop shop for beauty products</p>
+  </header>
+
+  <div class="container">
+    <div class="feature">
+      <img src="lipstick.jpg" alt="Lipstick">
+      <h2>Discover Your Perfect Shade</h2>
+      <p>Explore a wide range of lipsticks to find the color that suits you best.</p>
+    </div>
+
+    <div class="feature">
+      <img src="perfume.jpg" alt="Perfume">
+      <h2>Indulge in Luxury Fragrances</h2>
+      <p>Experience our exquisite collection of perfumes for every occasion.</p>
+    </div>
+  </div>
+
+  <div class="cta">
+    <h2>Get Ready to Glow!</h2>
+    <p>Shop now and enhance your beauty with our premium cosmetics.</p>
+    <button>Shop Now</button>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 Online Cosmetics Mart. All rights reserved.</p>
+  </footer>
+</body>
+</html>
